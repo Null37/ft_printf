@@ -1,0 +1,12 @@
+################ make ############
+rm -fr ft_printf.o my_fc_printf.o my_flag_fc.o flag_s.o
+rm -fr libftprintf.a
+gcc -Wall -Wextra -Werror -c ft_printf.c my_fc_printf.c my_flag_fc.c flag_s.c
+ar rc libftprintf.a ft_printf.o my_fc_printf.o my_flag_fc.o flag_s.o
+ranlib libftprintf.a
+################### gcc ###########################
+[###################clean##########################]
+[#################################################]
+|(null)         |$
+|(null)         |$
+|17| |17|
